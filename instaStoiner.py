@@ -44,7 +44,6 @@ class InstaStoiner:
 		tabs = browser.getAllTabs()
 
 		for x in self.__makeQueue():
-			print(x)
 			browser.switchTab(tabs[x[1]])
 			insta.viewStory(x[0])
 			if x[1] == self.tabs:
@@ -61,10 +60,3 @@ class InstaStoiner:
 	
 
 
-if __name__ == "__main__":
-	logging.basicConfig(level=logging.INFO, stream=sys.stdout)
-
-	insta = InstaStoiner("cruslah", "SpreadingMethod117", users_list=["afshin_tur", "suciangelic", "sani._.one", "khabib_nurmagomedov", "chemodan_prk", "elizabeth__9980"], cookies=False)
-	print(insta.start())
-
-	#print(insta.makeQueue())

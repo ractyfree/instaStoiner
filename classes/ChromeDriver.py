@@ -50,7 +50,7 @@ class ChromeDriverClass:
 
 	def openPageWaitForElem(self, page, xpath):
 		self.openPage(page)
-		WebDriverWait(self.driver, 5).until(EC.presence_of_element_located((By.XPATH, xpath)))
+		WebDriverWait(self.driver, self.DEFAULTTIMEOUT).until(EC.presence_of_element_located((By.XPATH, xpath)))
 
 	def saveCookies(self):
 		pickle.dump(self.driver.get_cookies(), open(self.COOKIESFILE, "wb"))
