@@ -46,8 +46,10 @@ class InstaStoiner:
 		for x in self.__makeQueue():
 			browser.switchTab(tabs[x[1]])
 			insta.viewStory(x[0])
+			'''
 			if x[1] == self.tabs:
-				time.sleep(10)
+				time.sleep(2)
+			'''
 			time.sleep(1)
 
 
