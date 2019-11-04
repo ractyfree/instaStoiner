@@ -29,7 +29,7 @@ It can help people who want to advertise their services and their accounts aswel
 
 
 ## Coding stuff
-### vkFriendee.py
+### instaStoiner.py
 Consists of class 'Friends' and has only one public function, all other funcs are for private usage, you can use them, but it's not supported.
 
 Public functions definition:
