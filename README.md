@@ -36,3 +36,8 @@ Public functions definition:
 
 	def start(self)
 	"""Allows you to start the main script's alghoritm"""
+
+
+
+
+PS Sry for bad docs within scripts, too lazy to comment everything. Will do ASAP.
