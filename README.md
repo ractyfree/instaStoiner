@@ -38,6 +38,7 @@ Public functions definition:
 	"""Allows you to start the main script's alghoritm"""
 
 
-
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fractyfree%2FinstaStoiner.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fractyfree%2FinstaStoiner?ref=badge_large)
 
 PS Sry for bad docs within scripts, too lazy to comment everything. Will do ASAP.
